@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "dist",
+    "importsNotUsedAsValues": "error",
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "strict": true,
+    "noErrorTruncation": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts", "scripts/**/*.ts"]
+}
